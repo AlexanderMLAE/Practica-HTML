@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: auto;
+}
+
+h1,h2{
+    font-family: "DM Sans", sans-serif;
+}
+body{
+    font-family: "Nunito", sans-serif;
+
+}
+
+header {
+  background-color: aquamarine;
+  text-align: center;
+  color: #0a454b;
+  border-bottom: solid 5px #000000; /* Comentario */
+  /* padding: 30px 20px 80px 10px; top right bottom left */
+  padding: 30px 0;
+}
+
+nav {
+    background-color: grey;
+    padding: 10px 10px;
+    border-bottom: 5px solid black;
+    font-size: 15px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+nav a:hover {
+    background-color: purple;
+    border-radius: 10px;
+}
+
+#bienvenida {
+    padding: 30px;
+    text-align: center;
+
+}
+
+#proyectos {
+    background-color: cyan;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.lista-proyectos {
+    display: flex;
+    padding-top: 20px;
+}
+
+.proyecto {
+    width: 30%;
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.proyecto h3 {
+    color: teal;
+}
+
+#competencias {
+    padding: 20px 10px;
+
+}
+
+#competencias h2 {
+    padding: 10px 5px;
+    text-align: center;
+}
+
+#competencias ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#competencias ul li {
+    background-color: black;
+    color: white;
+    padding: 8px 8px;
+    border-radius: 10%;
+}
+
+#contacto {
+    padding: 10px;
+    border-top: 2px dashed black;
+
+} 
+
+.campos {
+    padding: 10px;
+    clear: both;
+    font-size: 16px;
+}
+
+.campos label {
+    font-size: 20px;
+}
+
+.campos input {
+    font-size: 18px;
+    padding: 5px;
+    border: solid 2px teal;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.campos button {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    color: black;
+    width: 20%;
+    border: none;
+    font-size: 20px;
+}
+
+footer {
+    padding: 30px 30px;
+    background-color: teal;
+    color: white;
+    font-size: 14px;
+    border-top: 5px solid black;
+    text-align: center;
+
+}
