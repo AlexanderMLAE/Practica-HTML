@@ -1,4 +1,4 @@
-
+/* Colores: #393080 #385E9A #323236 #409FE4 */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 *{
@@ -7,25 +7,26 @@
 
 h1,h2{
     font-family: "DM Sans", sans-serif;
+    color: white;
 }
 body{
     font-family: "Nunito", sans-serif;
+    background-color: #000000;
+    color: whitesmoke;
 
 }
 
 header {
-  background-color: aquamarine;
+  background-color: #393080;
   text-align: center;
-  color: #0a454b;
-  border-bottom: solid 5px #000000; /* Comentario */
+  color: whitesmoke;
   /* padding: 30px 20px 80px 10px; top right bottom left */
   padding: 30px 0;
 }
 
 nav {
-    background-color: grey;
+    background-color: #385E9A;
     padding: 10px 10px;
-    border-bottom: 5px solid black;
     font-size: 15px;
 
 }
@@ -39,8 +40,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: purple;
-    border-radius: 10px;
+    color: #000000;
 }
 
 #bienvenida {
@@ -49,10 +49,16 @@ nav a:hover {
 
 }
 
+#pfp {
+    border-radius: 100%;
+    padding-top: 30px;
+}
+
 #proyectos {
-    background-color: cyan;
+    background-color: #393080;
     padding: 30px 20px;
     text-align: center;
+    
 }
 
 .lista-proyectos {
@@ -62,13 +68,15 @@ nav a:hover {
 
 .proyecto {
     width: 30%;
-    border: 2px solid red;
+    background-color:  #385E9A;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 12px;
+    border-width: 5px;
 }
 
 .proyecto h3 {
-    color: teal;
+    color: white;
+    font-weight: bold;
 }
 
 #competencias {
@@ -87,22 +95,36 @@ nav a:hover {
 }
 
 #competencias ul li {
-    background-color: black;
     color: white;
-    padding: 8px 8px;
-    border-radius: 10%;
+    padding: 30px 5px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.icon {
+    width: 32px;
+    vertical-align:bottom;
+    padding: 0 10px;
+}
+
+#progresos {
+    display: flex;
 }
 
 #contacto {
     padding: 10px;
-    border-top: 2px dashed black;
 
 } 
+
+#contacto h2, p {
+    text-align: center;
+}
 
 .campos {
     padding: 10px;
     clear: both;
     font-size: 16px;
+    display: flex;
 }
 
 .campos label {
@@ -120,8 +142,8 @@ nav a:hover {
 .campos button {
     padding: 10px;
     border-radius: 15px;
-    background-color: aquamarine;
-    color: black;
+    background-color: #385E9A;
+    color: white;
     width: 20%;
     border: none;
     font-size: 20px;
@@ -129,10 +151,11 @@ nav a:hover {
 
 footer {
     padding: 30px 30px;
-    background-color: teal;
+    background-color: #393080;
     color: white;
     font-size: 14px;
     border-top: 5px solid black;
     text-align: center;
 
 }
+

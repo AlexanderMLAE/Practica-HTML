@@ -4,7 +4,8 @@
   <!-- Comment-->
   <head>
     <title>Portafolio profesional - Erik Alexander Martinez Lopez</title>
-    <link rel="stylesheet" href="css/main.css"/> <!-- Enlaza el CSS Con el HTML-->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Enlaza el CSS Con el HTML-->
   </head>
   <body>
     <header>
@@ -22,7 +23,10 @@
     <main>
       <section id="bienvenida">
         <h2>Bienvenidos a mi portafolio profesional</h2>
-        <p>Mi nombre es <mark>Erik Alexander Martinez Lopez</mark> soy especialista en <strong>Tecnologias de la informacion</strong></p>
+        <p>
+          Mi nombre es <mark>Erik Alexander Martinez Lopez</mark>, soy
+          especialista en <strong>Tecnologias de la informacion.</strong>
+        </p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non
           gravida justo. Nam consequat magna at orci rutrum, nec molestie odio
@@ -34,79 +38,109 @@
           dapibus venenatis. Etiam porta volutpat quam, sed consectetur libero
           vehicula ut. Aenean in nunc mi.
         </p>
-        <p>Mi <small>frase favorita es:</small> <i>"As iron sharpens iron, so one person sharpens another"</i> </p>
-        
-        <img alt="Foto de perfil" src="images/yo.png" height="300"> 
+        <p>
+          Mi <small>frase favorita es:</small>
+          <i>"As iron sharpens iron, so one person sharpens another"</i>
+        </p>
 
-
+        <img id="pfp"
+          alt="Foto de perfil"
+          src="images/yo.png"
+          height="300"
+        />
       </section>
       <section id="proyectos">
         <h2>Proyectos Tecnologicos</h2>
         <div class="lista-proyectos">
           <article class="proyecto">
-              <h3>MyUT</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam dolor voluptatum tenetur aut vero.</p>
+            <h3>MyUT</h3>
+            <p>
+              Aplicación de Escritorio para Windoes con información relevante de
+              la Universidad Tecnologica de Cancún.
+            </p>
           </article>
           <article class="proyecto">
-              <h3>UTrip</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam dolor voluptatum tenetur aut vero.</p>
-          </article>
-          <article class="proyecto">
-              <h3>Qpon</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam dolor voluptatum tenetur aut vero.</p>
+            <h3>Qpon</h3>
+            <p>
+              Aplicación Móvil que muestra ofertas disponibles en distintos
+              establecimientos en la ciudad de Cancún.
+            </p>
           </article>
         </div>
       </section>
       <section id="competencias">
         <h2>Competencias profesionales</h2>
         <h3>Tecnologias y Lenguajes</h3>
-        <ul> <!-- Lista No ordenada (UnOrdered) -->
-          <li>HTML5</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>C#</li>
+        <ul>
+          <!-- Lista No ordenada (UnOrdered) -->
+          <li>
+            <img
+              src="images/html-5-svgrepo-com.svg"
+              alt="html5"
+              class="icon"
+            />HTML5
+          </li>
+          <li>
+            <img src="images/css-3-svgrepo-com.svg" alt="css" class="icon" />
+            CSS
+          </li>
+          <li>
+            <img src="images/javascript-svgrepo-com.svg" alt="" class="icon" />
+            JavaScript
+          </li>
+          <li>
+            <img src="images/csharp-svgrepo-com.svg" alt="c#" class="icon" />C
+            Sharp
+          </li>
         </ul>
         <h3>Dominio de Habilidades</h3>
-        <div> 
-          <label>HTML</label>
-          <progress min="0" max="100" value="50">50%</progress>
+        <div id="progresos">
+          <!--Barras de progreso-->
+          <div>
+            <label>HTML</label>
+            <progress min="0" max="100" value="50">50%</progress>
+          </div>
+          <div>
+            <label>CSS</label>
+            <progress min="0" max="100" value="40">40%</progress>
+          </div>
+          <div>
+            <label>JavaScript</label>
+            <progress min="0" max="100" value="30">30%</progress>
+          </div>
+          <div>
+            <label>C#</label>
+            <progress min="0" max="100" value="50">50%</progress>
+          </div>
+          <!-- Fin barras de progreso -->
         </div>
-        <div> 
-          <label>CSS</label>
-          <progress min="0" max="100" value="40">40%</progress>
-        </div>
-        <div> 
-          <label>JavaScript</label>
-          <progress min="0" max="100" value="30">30%</progress>
-        </div>
-        <div> 
-          <label>C#</label>
-          <progress min="0" max="100" value="50">50%</progress>
-        </div>
-
       </section>
 
       <section id="contacto">
         <h2>Contáctame</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Llena el siguiente formulario.</p>
         <form>
           <div class="campos">
             <label>Nombre Completo</label>
-            <input type="text" name="nombre" value="" placeholder="John Doe">
+            <input type="text" name="nombre" value="" placeholder="John Doe" />
           </div>
           <div class="campos">
             <label>Numero de Telefono</label>
-            <input type="text" name="telefono" value="" placeholder="01 000 111 2222">
+            <input
+              type="text"
+              name="telefono"
+              value=""
+              placeholder="01 000 111 2222"
+            />
           </div>
           <div class="campos">
             <button type="submit">Enviar</button>
           </div>
         </form>
       </section>
-
     </main>
     <footer>
-        <p>&copy; 2025 Todos los derechos reservados</p>
+      <p>&copy; 2025 Todos los derechos reservados</p>
     </footer>
   </body>
 </html>
