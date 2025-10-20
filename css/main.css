@@ -1,19 +1,19 @@
 /* Colores: #393080 #385E9A #323236 #409FE4 */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
-*{
-    margin: auto;
+* {
+  margin: auto;
 }
 
-h1,h2{
-    font-family: "DM Sans", sans-serif;
-    color: white;
+h1,
+h2 {
+  font-family: "DM Sans", sans-serif;
+  color: white;
 }
-body{
-    font-family: "Nunito", sans-serif;
-    background-color: #000000;
-    color: whitesmoke;
-
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #000000;
+  color: whitesmoke;
 }
 
 header {
@@ -25,137 +25,134 @@ header {
 }
 
 nav {
-    background-color: #385E9A;
-    padding: 10px 10px;
-    font-size: 15px;
-
+  background-color: #385e9a;
+  padding: 10px 10px;
+  font-size: 15px;
 }
 
 nav a {
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: 20px;
-    padding: 10px;
-    text-transform: capitalize;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 10px;
+  text-transform: capitalize;
 }
 
 nav a:hover {
-    color: #000000;
+  color: #000000;
 }
 
 #bienvenida {
-    padding: 30px;
-    text-align: center;
-
+  padding: 30px;
+  text-align: center;
 }
 
 #pfp {
-    border-radius: 100%;
-    padding-top: 30px;
+  border-radius: 100%;
+  margin-top: 30px;
+  height: 300px;
 }
 
 #proyectos {
-    background-color: #393080;
-    padding: 30px 20px;
-    text-align: center;
-    
+  background-color: #393080;
+  padding: 30px 20px;
+  text-align: center;
 }
 
 .lista-proyectos {
-    display: flex;
-    padding-top: 20px;
+  display: flex;
+  padding-top: 20px;
 }
 
 .proyecto {
-    width: 30%;
-    background-color:  #385E9A;
-    padding: 5px;
-    border-radius: 12px;
-    border-width: 5px;
+  width: 30%;
+  background-color: #385e9a;
+  padding: 5px;
+  border-radius: 12px;
+  border-width: 5px;
 }
 
 .proyecto h3 {
-    color: white;
-    font-weight: bold;
+  color: white;
+  font-weight: bold;
 }
 
 #competencias {
-    padding: 20px 10px;
-
+  padding: 20px 10px;
 }
 
 #competencias h2 {
-    padding: 10px 5px;
-    text-align: center;
+  padding: 10px 5px;
+  text-align: center;
 }
 
 #competencias ul {
-    list-style-type: none;
-    display: flex;
+  list-style-type: none;
+  display: flex;
 }
 
 #competencias ul li {
-    color: white;
-    padding: 30px 5px;
-    font-weight: bold;
-    font-size: 24px;
+  color: white;
+  padding: 30px 5px;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .icon {
-    width: 32px;
-    vertical-align:bottom;
-    padding: 0 10px;
+  width: 32px;
+  vertical-align: bottom;
+  padding: 0 10px;
 }
 
 #progresos {
-    display: flex;
+  display: flex;
+  padding: 30px;
 }
 
 #contacto {
-    padding: 10px;
+  padding: 10px;
+}
 
-} 
-
-#contacto h2, p {
-    text-align: center;
+#contacto h2,
+p {
+  text-align: center;
 }
 
 .campos {
-    padding: 10px;
-    clear: both;
-    font-size: 16px;
-    display: flex;
+  padding: 10px 0;
+  clear: both;
+  font-size: 16px;
+  display: flex;
 }
 
 .campos label {
-    font-size: 20px;
+  font-size: 20px;
+  
 }
 
 .campos input {
-    font-size: 18px;
-    padding: 5px;
-    border: solid 2px teal;
-    border-radius: 10px;
-    width: 30%;
+  font-size: 18px;
+  padding: 5px;
+  border: solid 2px teal;
+  border-radius: 10px;
+  width: 30%;
 }
 
 .campos button {
-    padding: 10px;
-    border-radius: 15px;
-    background-color: #385E9A;
-    color: white;
-    width: 20%;
-    border: none;
-    font-size: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #385e9a;
+  color: white;
+  width: 20%;
+  border: none;
+  font-size: 20px;
 }
 
 footer {
-    padding: 30px 30px;
-    background-color: #393080;
-    color: white;
-    font-size: 14px;
-    border-top: 5px solid black;
-    text-align: center;
-
+  padding: 30px 30px;
+  background-color: #393080;
+  color: white;
+  font-size: 14px;
+  border-top: 5px solid black;
+  text-align: center;
 }
-
